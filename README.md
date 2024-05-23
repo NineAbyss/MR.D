@@ -20,5 +20,3 @@ bash grid_search_ours.sh
 
 ```
 
-# Acknoledgement
-This code is based on Xing Ai's [work](https://github.com/XingAi96/Group_level_Graph_Anomaly_Detection). We are appreciated for his help.
