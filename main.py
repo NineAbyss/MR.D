@@ -87,8 +87,8 @@ if __name__ == '__main__':
         args.gae_epochs = 20000
         args.gae_lr = 1e-4
         
-        A_path = f'/home/yuhanli/wangpeisong/Topology-Pattern-Enhanced-Unsupervised-Group-level-Graph-Anomaly-Detection/{args.real_world_name}_Ap'
-        G_path = f'/home/yuhanli/wangpeisong/Topology-Pattern-Enhanced-Unsupervised-Group-level-Graph-Anomaly-Detection/{args.real_world_name}_Gp'
+        A_path = f'{args.real_world_name}_Ap'
+        G_path = f'{args.real_world_name}_Gp'
         if os.path.exists(A_path) and os.path.exists(G_path):
             data.A = torch.load(A_path)
             data.G = torch.load(G_path)

@@ -27,6 +27,6 @@ def remove_isolated_nodes(data):
     return data
 
 
-data = torch.load('/home/yuhanli/wangpeisong/Topology-Pattern-Enhanced-Unsupervised-Group-level-Graph-Anomaly-Detection/aamas_inject_03.pt')
+data = torch.load('aamas_inject_03.pt')
 data = remove_isolated_nodes(data)
 torch.save(data, 'aamas_inject_03.pt')
