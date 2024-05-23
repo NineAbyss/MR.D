@@ -4,4 +4,7 @@ This is the official implementation of paper: "Toward Fairer Review: Detection o
 
 To construct datasets, run
 # MR.D
-# MR.D
+
+'''
+python inject.py
+'''
